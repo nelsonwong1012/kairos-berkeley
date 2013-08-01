@@ -587,7 +587,7 @@ p {
 }
 	
 	.quote3 { position:absolute; width:980px;color:#FFF; font-family: 'LaneUpperRegular';
-	font-size:50px; left:50%; margin-left:-490px; text-align:center; margin-top:315px; text-transform:uppercase; text-shadow:none;
+	font-size:50px; left:50%; margin-left:-490px; text-align:center; margin-top:210px; text-transform:uppercase; text-shadow:none;
 	}
 	
 	.red { color:#F00;}
@@ -641,7 +641,7 @@ p {
 
 .section7, .section7-2, .section7-3, .section7-4, .section7-5, .section7-6, .section7-7, .section7-8, .section7-9, .section7-10 {
     margin:0px 0px 0px 0px;
-    height:750px;
+    height:500px;
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #f0f0f0;
