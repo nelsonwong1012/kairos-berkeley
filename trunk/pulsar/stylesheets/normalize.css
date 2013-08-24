@@ -73,7 +73,7 @@ html {
 body {
     margin: 0;
 	background-color:#000;
-	color:#fff;
+	xxcolor:#fff;
 }
 
 /* ==========================================================================
@@ -84,9 +84,11 @@ body {
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
  
+/*
 a {
 	color:#38d4ca;
 }
+*/
 
 a:focus {
     outline: thin dotted;

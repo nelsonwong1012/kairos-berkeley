@@ -35,6 +35,14 @@ version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
 }
 */
 
+h3 {
+	font-size: 30px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
 
 header {
 	width:100%;
@@ -476,7 +484,7 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:normal;
 	font-size:14px;
-	color:#FFF;
+	xxcolor:#FFF;
 	line-height:22px;
 	padding-top:14px;
 }
@@ -1030,7 +1038,7 @@ margin-top:10px}
 	max-width:980px;
 	margin:0 auto;
 	padding:0;
-	padding-top:300px;
+	padding-top: 80px;
 	overflow: hidden; /* for standards compliant browsers */
 	width: 100%; /* for IE */
 	
@@ -3369,6 +3377,7 @@ embed {
     font-weight: normal;
     src: url("fonts/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/league_gothic-webfont.woff") format("woff"), url("fonts/league_gothic-webfont.ttf") format("truetype"), url("fonts/league_gothic-webfont.svg#LeagueGothic") format("svg");
 }
+
 body {
     font: 14px/18px 'Helvetica Neue',Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
 }
@@ -3382,7 +3391,7 @@ hr {
     -moz-border-top-colors: none;
     border-color: #CCCCCC;
     border-image: none;
-    border-right: 0 solid #CCCCCC;
+    border-right: 0 solid #CCC;
     border-style: solid;
     border-width: 1px 0 0;
     clear: both;
@@ -3396,6 +3405,9 @@ h1, h2, h3, h4, h5, h6, .post-title, .post-icon, header #nav a, .tag, .button {
     text-rendering: optimizelegibility;
     text-transform: uppercase;
 }
+
+
+
 h1 {
     xxfont-size: 60px;
 }
@@ -3429,12 +3441,26 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, .post-
 
 
 
+h1, h2, h3, h4, h5, h6, .post-title, .post-icon, header #nav a, .tag, .button {
+    font-family: LeagueGothic,Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 0.8;
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+}
+
 
 
 .post {
-    background: url("images/diagonal-lines-bg.png") repeat-x scroll left bottom #FFFFFF;
+    background: url("images/diagonal-lines-bg.png") repeat-x scroll left bottom #FFF;
 }
 
 .content {
-	margin-top: 50px;
+	margin-top: 70px;
+}
+
+
+#main .post {
+	cursor: pointer;
 }

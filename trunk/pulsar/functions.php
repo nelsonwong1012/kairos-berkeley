@@ -342,12 +342,14 @@ function add_homepage_slideshow() {
 add_action('wp_footer','add_homepage_slideshow',100);
 
 function add_pulsar_custom_css() { ?>
+<!--
  <style>
  <?php global $pulsar_data; $pulsar_custom_css = $pulsar_data['custom_css']; echo $pulsar_custom_css ?>
  #morebut, #nav2 a:hover, #nav3 a:hover, #nav4 a:hover, #nav5 a:hover, .button, a, nav ul ul li a:hover, nav ul li a.first:hover, nav ul li:hover a {
 	 color:<?php global $pulsar_data; $pulsar_main_website_color = $pulsar_data['main_website_color']; echo $pulsar_main_website_color ?>;
  }
  </style>
+-->
 <!-- our welcome blurb ends here -->
 <?php 
 } // end of our new function for custom css

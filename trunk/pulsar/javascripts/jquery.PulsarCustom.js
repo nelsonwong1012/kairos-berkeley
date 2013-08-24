@@ -1,5 +1,10 @@
 jQuery(document).ready(function($) {
 	$("a[rel^='prettyPhoto']").prettyPhoto();
+	
+	$('#main .post').click(function() {
+		var link = $('h3 a', this).attr('href');
+		window.location.href = link; 
+	});
 });
 
 jQuery(window).load(function() {
@@ -121,7 +126,8 @@ jQuery(function($) {
 		event.preventDefault();
 	});
 	
-	$('[class*=section]').click(function(event) {
+	$('.page-template-about-us-php [class*=section]').click(function(event) {
+		console.log('[class*=section]');
 		var section = $(this);
 		$('html, body').stop().animate({
 			scrollTop: section.offset().top + section.height()
@@ -131,7 +137,8 @@ jQuery(function($) {
 	});	
 
 
-	$('nav ul li a').bind('click',function(event){
+	$('.page-template-about-us-php nav ul li a').bind('click',function(event){
+		console.log('click: .logo a');
 	    event.stopPropagation();
 		var $anchor = $(this);
 		
