@@ -118,10 +118,9 @@ else { wp_title('',true); }
 	<!-- Header and Navigation -->
     <header>
     	
-        <?php if(is_home() ) { ?>
         <!-- Your Logo Goes Here -->
     	<div class="logo">
-        	<a href="#homepage"><?php global $pulsar_data; //fetch options stored in $pulsar_data
+        	<a href="<?php echo home_url(); ?>"><?php global $pulsar_data; //fetch options stored in $pulsar_data
 			$your_uploaded_logo = $pulsar_data['uploaded_logo'];
 			$template_url = get_template_directory_uri();
 			if (isset($your_uploaded_logo[0]) && $your_uploaded_logo[1]) {
@@ -130,9 +129,7 @@ else { wp_title('',true); }
 				echo '<img src="' .$template_url. '/images/logo.png"  alt="'.$your_homepage_title.'">';
 			} ?></a>
         </div>
-    	<?php } ?>
         
-    	<?php if(is_home() ) { ?>
         <!-- Your menu items are placed here -->
         <div class="main-menu hide-for-small">
         	<nav>
@@ -149,7 +146,6 @@ else { wp_title('',true); }
                 )); ?>
             </nav>
         </div>
-    <?php } ?>
         
         <!-- Enter the links for your social media profiles -->
         <div class="social-media-header hide-for-small hide-for-1220"><?php global $pulsar_data; //fetch options stored in $pulsar_data
@@ -183,7 +179,6 @@ else { wp_title('',true); }
 			} ?>
         </div>
         
-    <?php if(is_home() ) { ?>
         <?php wp_nav_menu( array(
 			'theme_location'  => 'main-menu',
 			'menu'            => '',
@@ -196,33 +191,7 @@ else { wp_title('',true); }
 			'depth'           => 0,
 			'walker'  => new Walker_Nav_Menu_Dropdown()
 		)); ?>
-    <?php } ?>
     
-    <?php if(!is_home() ) { ?>
-    <!-- Your Logo Goes Here -->
-    	<div class="logo">
-        	<a href="<?php echo home_url(); ?>"><?php global $pulsar_data; //fetch options stored in $pulsar_data
-			$your_uploaded_logo = $pulsar_data['uploaded_logo'];
-			$template_url = get_template_directory_uri();
-			if (isset($your_uploaded_logo[0]) && $your_uploaded_logo[1]) {
-				echo '<img src="' .$your_uploaded_logo. '"  alt="'.$your_homepage_title.'">'  ;
-			} else {
-				echo '<img src="' .$template_url. '/images/logo.png"  alt="'.$your_homepage_title.'">';
-			} ?></a>
-        </div>
-    <!-- Your menu items are placed here -->
-    <div class="main-menu hide-for-small">
-    	<nav>
-        	<div class="menu-main-menu-container">
-            	<ul>
-                	<li>
-                    	<a href="<?php echo home_url(); ?>">Go Back to home</a>
-                    </li>
-				</ul>
-			</div>
-		</nav>
-   	</div>
-    <?php } ?>
         
     </header>
     

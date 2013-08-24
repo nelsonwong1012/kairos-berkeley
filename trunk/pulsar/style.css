@@ -22,6 +22,8 @@ version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
 
 #loading img { position: fixed; top: 50%; left: 50%; margin: -25px 0 0 -25px; }
 
+/*
+
 #home-overlay {
 	width:100%;
 	height:100%;
@@ -31,10 +33,13 @@ version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
 	margin:0 auto;
 	background:rgba(0,0,0,0.2);
 }
+*/
+
 
 header {
 	width:100%;
 	position:fixed;
+	top: 0;
 	height:75px;
 	background:#292727;
 	z-index:99;
@@ -281,7 +286,7 @@ nav ul ul ul {
 		}
 				
 		#content, #content2, #content3, #content4, #content5 {	
-			max-width: 1200px;	
+			max-width: 800px;	
 			overflow:hidden;		
 		}
 		
@@ -330,7 +335,7 @@ nav ul ul ul {
 		}
 		
 .contentbox2 {
-	width: 1200px;
+	width: 800px;
 	height: 390px;
 	float: left;
 	padding: 0px;
@@ -389,6 +394,14 @@ nav ul ul ul {
 	margin-top:7px;
 }
 
+.page-template-about-us-php [class*=section] {
+    background-size: initial;
+	cursor: pointer;
+}
+
+[class*=section]:last-of-type {
+	cursor: default;
+}
 
 .section2 {
 	background:#FFF url(images/pattern-about.png) repeat;
@@ -591,22 +604,90 @@ p {
 	margin-top: -20px;
 }
 	
-	.quote3 { position:absolute; width:980px;color:#FFF; font-family: 'LaneUpperRegular';
-	font-size:50px; left:50%; margin-left:-490px; text-align:center; margin-top:210px; text-transform:uppercase; text-shadow:none;
+.quote3 {
+	position:absolute;
+	width:980px;
+	color:#FFF;
+	font-family: 'Gill Sans';
+	font-size:40px;
+	font-weight: 300;
+	left:50%;
+	margin-left:-490px;
+	text-align:center;
+	margin-top:410px;
+	text-transform:uppercase;
+	text-shadow: 0 0 15px #000;
+}
+	
+	.quote3 .white {
+	    display: block;
+	    margin-top: -275px;
+    	color: #000;
+    	line-height: 2.5;
+    	font-size: 28px;
+	}
+	
+	.quote3 .white h6 {
+    	font-weight: 300;
+    	text-shadow: 1px 1px 2px #666;
 	}
 	
 	.red { color:#F00;}
-	.black { color:#000;}
+	.black { color:#000; text-shadow: 1px 1px 2px #333; }
 	.white { color:#FFF;}
+	.gray { color: #bbb; text-shadow: 1px 1px 2px #333; }
 	
-	.quote4 { color:#FFF; font-family: 'LaneUpperRegular';
-	margin-right:auto; margin-left:auto; text-align:center; margin-top:210px; text-transform:uppercase; text-shadow:none;
+	
+	.quote4 {
+	font-family: 'LaneUpperRegular';
+	color:#FFF;
+	width:950px;
+        margin-right:auto;
+        margin-left:auto; text-align:center; margin-top:210px; text-shadow: 1px 1px 3px #333; line-height: 1.5;
 	}
-	.quote4-1 { color:#000; font-family: 'LaneUpperRegular';
-	margin-right:auto; margin-left:auto; text-align:center; margin-top:210px; text-transform:uppercase; text-shadow:none;
+	.quote4-desc {
+	width:740px;
+	margin-top:40px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:left;
 	}
-	.quote4 p { padding:25px; margin-bottom:15px; font-size:60px;  }
-	.quote4-1 p { color:#000; padding:25px; margin-bottom:15px; font-size:60px;  }
+	.quote4-1-desc {
+	width:740px;
+	margin-top:350px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+	}
+	.quote4 h4 {
+    	font: 300 24px 'Gill Sans', Arial, sans-serif;
+    	text-transform: uppercase;
+    	xxtext-align: left;
+    	xxline-height: 1.5;
+	}
+	.quote4-1 {
+	    color:#000;
+	margin-right:auto; margin-left:auto; text-align:center; margin-top:210px; xxtext-shadow:none;
+	}
+	.quote4 p {
+	    font-family: 'Constantia', Garamond, Georgia, Helvetica, serif;
+	    padding:25px; margin-bottom:15px; font-size:100px;  }
+	.quote4-1 p {
+	    color:#000;
+	    padding:25px;
+	    margin-bottom:15px;
+	    font-size:60px;
+	    font-family: 'Big Caslon';
+        }
+    .quote4-1 h4 {
+        color: #fff;
+	font-family: 'GillSans';
+        text-transform: uppercase;
+        text-shadow: 1px 1px 2px #111;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.5;
+    }
 	
 	.quote5 { position:absolute; width:980px;color:#FFF; font-family: 'Titillium Web', sans-serif;
 	font-size:65px; left:50%; margin-left:-490px; text-align:center; margin-top:150px; text-transform:uppercase; text-shadow:none;
@@ -652,7 +733,7 @@ p {
 
 .section7, .section7-2, .section7-3, .section7-4, .section7-5, .section7-6, .section7-7, .section7-8, .section7-9, .section7-10 {
     margin:0px 0px 0px 0px;
-    height:1200px;
+    height:900px;
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #f0f0f0;
@@ -669,7 +750,7 @@ p {
 
 .section9, .section9-1, .section9-2, .section9-3, .section9-4, .section9-5, .section9-6, .section9-7, .section9-8, .section9-9, .section9-10 {
     margin:0px 0px 0px 0px;
-    height:1200px;
+    height:900px;
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #f0f0f0;
@@ -1431,7 +1512,7 @@ border-radius: 3px;}.button23:active{-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2) 
 
 @media only screen and (max-width: 1920px) { 
 	#content, #content2, #content3, #content4, #content5 {
-		max-width: 1200px;
+		max-width: 800px;
 		overflow:hidden;
 	}
 	
@@ -1977,9 +2058,13 @@ border-radius: 3px;}.button23:active{-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2) 
 		left:50%;
 		margin-left:-50%;
 		text-align:center;
-		margin-top:210px;
+		margin-top:290px;
 		text-transform:uppercase;
 		text-shadow:none;
+	}
+	
+	.quote3 .white {
+	    margin-top: -330px;
 	}
 	
 	.red { color:#F00;}
@@ -1996,7 +2081,7 @@ border-radius: 3px;}.button23:active{-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2) 
 	}
 	
 	.quote4 p {
-		background:#FFF;
+		xxbackground:#FFF;
 		padding:25px;
 		margin-bottom:15px;
 		font-size:60px;
@@ -3270,4 +3355,86 @@ embed {
 }
 .mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonRight{
 	background-position:-80px -56px;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: "LeagueGothic";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/league_gothic-webfont.woff") format("woff"), url("fonts/league_gothic-webfont.ttf") format("truetype"), url("fonts/league_gothic-webfont.svg#LeagueGothic") format("svg");
+}
+body {
+    font: 14px/18px 'Helvetica Neue',Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+a:focus {
+    outline: 1px dotted;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC;
+    border-image: none;
+    border-right: 0 solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+}
+h1, h2, h3, h4, h5, h6, .post-title, .post-icon, header #nav a, .tag, .button {
+    font-family: LeagueGothic,Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 0.8;
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+}
+h1 {
+    xxfont-size: 60px;
+}
+h2, .post-title {
+    xxfont-size: 30px;
+}
+h3 {
+    xxfont-size: 30px;
+}
+h4, .post-icon {
+    xxfont-size: 21px;
+}
+h5 {
+    xxfont-size: 18px;
+}
+h6 {
+    xxfont-size: 12px;
+}
+ol {
+    xxlist-style: decimal outside none;
+}
+ul {
+    xxlist-style: disc outside none;
+}
+li {
+    xxmargin-left: 30px;
+}
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, .post-title, .post-icon {
+    xxmargin-bottom: 20px;
+}
+
+
+
+
+
+.post {
+    background: url("images/diagonal-lines-bg.png") repeat-x scroll left bottom #FFFFFF;
+}
+
+.content {
+	margin-top: 50px;
 }

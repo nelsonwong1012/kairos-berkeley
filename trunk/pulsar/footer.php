@@ -8,8 +8,11 @@
 			echo '';
 		}						
 	?>	
-    
-	<?php wp_footer(); ?>
+    <!-- Slideshow Object-->    
+	<?php
+		wp_footer(); 
+	
+	?>
     
     <!-- css3-mediaqueries.js for IE less than 9 -->
  <!--[if lt IE 9]>

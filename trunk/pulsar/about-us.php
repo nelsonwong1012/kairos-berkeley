@@ -203,7 +203,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>';// echo the title
 		}
 		if ("parallax_four_template" == $pulsar_first_parallax_template ) {
@@ -224,7 +224,9 @@ get_header();
 				</div>
 				<div class="quote4 hide-for-520">
 					<p>'. $page_data->post_title .'</p>
-					<p>'. $page_data->post_content .'</p>
+					<div class="quote4-desc">
+					'. $page_data->post_content .'
+					</div>
 				</div>
 				<div class="quote4-pattern"></div>
 			</div>';// echo the title
@@ -718,7 +720,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>
 			
 			<style>
@@ -738,7 +740,9 @@ get_header();
 				</div>
 				<div class="quote4-1 hide-for-520">
 					<p>'. $page_data->post_title .'</p>
-					<p>'. $page_data->post_content .'</p>
+					<div class="quote4-1-desc">
+					'. $page_data->post_content .'
+					</div>
 				</div>
 				<div class="quote4-pattern"></div>
 			</div>
@@ -1748,7 +1752,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>
 			
 			<style>
@@ -2263,7 +2267,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 black hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 black hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>
 			
 			<style>
@@ -2736,7 +2740,7 @@ get_header();
 			
 			<style>
 			.section3-6 {
-				background:#000 url('.wp_get_attachment_url(get_post_thumbnail_id( $page_id_parallax_six )).') 50% 0 no-repeat fixed;
+				background:#000 url('.wp_get_attachment_url(get_post_thumbnail_id( $page_id_parallax_six )).') 50% 50% no-repeat fixed;
 			}
 			</style>';// echo the title
 		}
@@ -2780,7 +2784,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 black hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 black hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>
 			
 			<style>
@@ -3296,7 +3300,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>
 			
 			<style>
@@ -3813,7 +3817,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>
 			
 			<style>
@@ -4330,7 +4334,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>
 			
 			<style>
@@ -4846,7 +4850,7 @@ get_header();
 						</ul>
 					</nav>
 				</div>
-				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="red"> '. $page_data->post_content .'</span></div>
+				<div class="quote3 hide-for-520">'. $page_data->post_title .' //<span class="gray"> '. $page_data->post_content .'</span></div>
 			</div>
 			
 			<style>
