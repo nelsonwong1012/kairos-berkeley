@@ -76,16 +76,16 @@ jQuery(document).ready(function($){
 		$('.section5-10').parallax("50%", 0.5);
 		$('.section7').parallax("50%", 0.5);
 		$('.section7-2').parallax("50%", 0.5);
-		$('.section7-3').parallax("50%", 0.5);
-		$('.section7-4').parallax("50%", 0.5);
-		$('.section7-5').parallax("50%", 0.5);
-		$('.section7-6').parallax("50%", 0.5);
-		$('.section7-7').parallax("50%", 0.5);
-		$('.section7-8').parallax("50%", 0.5);
+		$('.section7-3').parallax("50%", 0.1);
+		$('.section7-4').parallax("50%", 0.1);
+		$('.section7-5').parallax("50%", 0.1);
+		$('.section7-6').parallax("50%", 0.1);
+		$('.section7-7').parallax("50%", 0.1);
+		$('.section7-8').parallax("50%", 0.1);
 		$('.section7-9').parallax("50%", 0.5);
 		$('.section7-10').parallax("50%", 0.5);
-		$('.section9').parallax("50%", 0.5);
-		$('.section9-2').parallax("50%", 0.5);
+		$('.section9').parallax("50%", 0.1);
+		$('.section9-2').parallax("50%", 0.1);
 		$('.section9-3').parallax("50%", 0.5);
 		$('.section9-4').parallax("50%", 0.5);
 		$('.section9-5').parallax("50%", 0.5);
@@ -111,31 +111,45 @@ jQuery(function($) {
 	$('ul#menu-main-menu').prepend('<li id="#homepage"><a href="homepage">Home</a></li>');
 	
 	$('.main-menu li').bind('click',function(event){
+		console.log('clicked on: .main-menu li');
 		var $link = $(this);
 		
 		$('html, body').stop().animate({
 			scrollTop: $($link.attr('id')).offset().top
-		}, 2000,'easeInOutQuart');
+		}, 1500,'easeInOutQuart');
 		
 		event.preventDefault();
 	});
 	
+	$('[class*=section]').click(function(event) {
+		var section = $(this);
+		$('html, body').stop().animate({
+			scrollTop: section.offset().top + section.height()
+		}, 1500,'easeInOutQuart');
+		
+		event.preventDefault();
+	});	
+
+
 	$('nav ul li a').bind('click',function(event){
+	    event.stopPropagation();
 		var $anchor = $(this);
 		
 		$('html, body').stop().animate({
 			scrollTop: $($anchor.attr('href')).offset().top
-		}, 2000,'easeInOutQuart');
+		}, 1500,'easeInOutQuart');
 		
 		event.preventDefault();
 	});
+
 	
 	$('.logo a').bind('click',function(event){
+		//console.log('click: .logo a');
 		var $logolink = $(this);
 		
 		$('html, body').stop().animate({
 			scrollTop: $($logolink.attr('href')).offset().top
-		}, 2000,'easeInOutQuart');
+		}, 1500,'easeInOutQuart');
 		
 		event.preventDefault();
 	});
@@ -191,5 +205,5 @@ function moveTo(contentArea){
 	var goPosition = jQuery(contentArea).offset().top;
 	jQuery('html, body').stop().animate({
 		scrollTop: goPosition
-	}, 2000,'easeInOutQuart');
+	}, 1500,'easeInOutQuart');
 }

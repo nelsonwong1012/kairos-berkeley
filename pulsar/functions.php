@@ -40,7 +40,15 @@ function pulsar_register_css() {
 		wp_register_style( 'pulsar_opensansfont_css', 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' );
 		wp_register_style( 'pulsar_titillium_css', 'http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' );
 		wp_register_style( 'pulsar_arapey_css', 'http://fonts.googleapis.com/css?family=Arapey:400italic,400' );
+		wp_register_style( 'kairos_magazine_css', get_template_directory_uri() . '/style-2012.css' );
+		wp_register_style( 'kairos_magazine_reset_css', get_template_directory_uri() . '/stylesheets/reset.css' );
+		wp_register_style( 'kairos_magazine_text_css', get_template_directory_uri() . '/stylesheets/text.css' );
+		wp_register_style( 'kairos_magazine_grid_css', get_template_directory_uri() . '/stylesheets/grid.css' );
 		
+		wp_enqueue_style('kairos_magazine_css');
+		wp_enqueue_style('kairos_magazine_reset_css');
+		#wp_enqueue_style('kairos_magazine_text_css');
+		wp_enqueue_style('kairos_magazine_grid_css');
 		wp_enqueue_style('pulsar_css');
 		wp_enqueue_style('pulsar_fonts_css');
 		wp_enqueue_style('pulsar_normalize_css');
@@ -78,8 +86,8 @@ function pulsar_register_js() {
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('pulsar_modernizr');
 		wp_enqueue_script('pulsar_easing');
-		wp_enqueue_script('pulsar_supersized');
-		wp_enqueue_script('pulsar_supersized_shutter');
+		#wp_enqueue_script('pulsar_supersized');
+		#wp_enqueue_script('pulsar_supersized_shutter');
 		wp_enqueue_script('pulsar_jquery_validate');
 		wp_enqueue_script('pulsar_parallax');
 		wp_enqueue_script('pulsar_prettyphoto');
@@ -97,6 +105,10 @@ function pulsar_single_scripts() {
 		
 	if(is_singular())
 		wp_enqueue_script( "comment-reply" );
+	if(is_home())
+		wp_enqueue_script('pulsar_supersized');
+		wp_enqueue_script('pulsar_supersized_shutter');
+
 }
 add_action('wp_print_scripts', 'pulsar_single_scripts');
 
@@ -126,6 +138,10 @@ function pulsar_get_ID_by_page_name($page_name)
 	return $page_name_id;
 }
 
+function get_category_id($cat_name) {
+	$term = get_term_by('name', $cat_name, 'category');
+        return $term->term_id;
+}
 
 /*-----------------------------------------------------------------------------------*/
 /*	Add Post Thumbnail Support
@@ -268,7 +284,8 @@ if ( function_exists('register_sidebar') ) {
 /*	Homepage Slideshow
 /*-----------------------------------------------------------------------------------*/
 
-function add_homepage_slideshow() { ?>
+function add_homepage_slideshow() {
+    if( is_home() ) { ?>
 <script>
 	jQuery(function($){
 		$.supersized({
@@ -318,7 +335,9 @@ function add_homepage_slideshow() { ?>
 	});
 </script>
 <?php
+    }
 }
+
 
 add_action('wp_footer','add_homepage_slideshow',100);
 
