@@ -121,7 +121,7 @@ jQuery(function($) {
 		
 		$('html, body').stop().animate({
 			scrollTop: $($link.attr('id')).offset().top
-		}, 1500,'easeInOutQuart');
+		}, 1000,'easeInOutQuart');
 		
 		event.preventDefault();
 	});
@@ -131,7 +131,7 @@ jQuery(function($) {
 		var section = $(this);
 		$('html, body').stop().animate({
 			scrollTop: section.offset().top + section.height()
-		}, 1500,'easeInOutQuart');
+		}, 1000,'easeInOutQuart');
 		
 		event.preventDefault();
 	});	
@@ -144,7 +144,7 @@ jQuery(function($) {
 		
 		$('html, body').stop().animate({
 			scrollTop: $($anchor.attr('href')).offset().top
-		}, 1500,'easeInOutQuart');
+		}, 1000,'easeInOutQuart');
 		
 		event.preventDefault();
 	});
@@ -156,7 +156,7 @@ jQuery(function($) {
 		
 		$('html, body').stop().animate({
 			scrollTop: $($logolink.attr('href')).offset().top
-		}, 1500,'easeInOutQuart');
+		}, 1000,'easeInOutQuart');
 		
 		event.preventDefault();
 	});
@@ -212,5 +212,5 @@ function moveTo(contentArea){
 	var goPosition = jQuery(contentArea).offset().top;
 	jQuery('html, body').stop().animate({
 		scrollTop: goPosition
-	}, 1500,'easeInOutQuart');
+	}, 1000,'easeInOutQuart');
 }

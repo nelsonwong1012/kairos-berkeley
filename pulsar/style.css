@@ -50,11 +50,11 @@ header {
 	top: 0;
 	height:75px;
 	background:#292727;
-	z-index:99;
+	z-index:200;
 }
 
 .logo {
-	width:235px;
+	width:325px;
 	height:56px;
 	margin-left:60px;
 	margin-top:8px;
@@ -66,6 +66,16 @@ header {
 	width:180px;
 	height:40px;
 	padding-top:10px;
+}
+
+.logo span {
+	font-family: LeagueGothic,Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 22px;
+	position: relative;
+	top: -3px;
+	color: #ccc;
 }
 
 .social-media-header {
@@ -403,11 +413,12 @@ nav ul ul ul {
 }
 
 .page-template-about-us-php [class*=section] {
-    background-size: initial;
+    background-size: cover;
 	cursor: pointer;
 }
 
-[class*=section]:last-of-type {
+[class*=section]:last-of-type,
+.page-template-about-us-php .section7-7 {
 	cursor: default;
 }
 
@@ -486,7 +497,7 @@ p {
 	font-size:14px;
 	xxcolor:#FFF;
 	line-height:22px;
-	padding-top:14px;
+	xxpadding-top:14px;
 }
 
 .divider {
@@ -617,8 +628,9 @@ p {
 	width:980px;
 	color:#FFF;
 	font-family: 'Gill Sans';
-	font-size:40px;
+	font-size:50px;
 	font-weight: 300;
+	line-height: 1.5;
 	left:50%;
 	margin-left:-490px;
 	text-align:center;
@@ -636,14 +648,17 @@ p {
 	}
 	
 	.quote3 .white h6 {
+		font-family: Arial, sans-serif;
     	font-weight: 300;
+    	line-height: 1.5;
+    	font-size: 24px;
     	text-shadow: 1px 1px 2px #666;
 	}
 	
 	.red { color:#F00;}
 	.black { color:#000; text-shadow: 1px 1px 2px #333; }
 	.white { color:#FFF;}
-	.gray { color: #bbb; text-shadow: 1px 1px 2px #333; }
+	.gray { color: #eee; text-shadow: 1px 1px 2px #333; }
 	
 	
 	.quote4 {
@@ -654,7 +669,7 @@ p {
         margin-left:auto; text-align:center; margin-top:210px; text-shadow: 1px 1px 3px #333; line-height: 1.5;
 	}
 	.quote4-desc {
-	width:740px;
+	width:780px;
 	margin-top:40px;
 	margin-right:auto;
 	margin-left:auto;
@@ -662,13 +677,15 @@ p {
 	}
 	.quote4-1-desc {
 	width:740px;
-	margin-top:350px;
+	margin-top:250px;
 	margin-right:auto;
 	margin-left:auto;
 	text-align:center;
+	font: 300 26px 'Gill Sans', Arial, sans-serif;
+    	text-transform: uppercase;
 	}
 	.quote4 h4 {
-    	font: 300 24px 'Gill Sans', Arial, sans-serif;
+    	font: 300 26px 'Gill Sans', Arial, sans-serif;
     	text-transform: uppercase;
     	xxtext-align: left;
     	xxline-height: 1.5;
@@ -693,7 +710,7 @@ p {
         text-transform: uppercase;
         text-shadow: 1px 1px 2px #111;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 24px;
         line-height: 1.5;
     }
 	
@@ -741,7 +758,7 @@ p {
 
 .section7, .section7-2, .section7-3, .section7-4, .section7-5, .section7-6, .section7-7, .section7-8, .section7-9, .section7-10 {
     margin:0px 0px 0px 0px;
-    height:900px;
+    height:800px;
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #f0f0f0;
@@ -758,7 +775,7 @@ p {
 
 .section9, .section9-1, .section9-2, .section9-3, .section9-4, .section9-5, .section9-6, .section9-7, .section9-8, .section9-9, .section9-10 {
     margin:0px 0px 0px 0px;
-    height:900px;
+    height:800px;
     width:100%;
     float:left;
     text-shadow:1px 1px 2px #f0f0f0;
@@ -950,7 +967,22 @@ text-indent: -9999px;
 	width:45%;
 }
 
-.arrowdown { width:99px; height:99px; position:absolute; top: -78px; left:50%; margin-left:-49px;}
+.arrowdown { xxwidth:99px; xxheight:99px; position:absolute; top: -150px; left:50%; margin-left:-32px;
+	opacity: .6;
+	filter: alpha(opacity=60);
+	
+  -webkit-transition: opacity 0.5s ease-out; 
+     -moz-transition: opacity 0.5s ease-out; 
+       -o-transition: opacity 0.5s ease-out; 
+          transition: opacity 0.5s ease-out; 
+
+}
+
+.arrowdown:hover {
+	opacity: .8;
+	filter: alpha(opacity=80);
+}
+
 .arrowback { width:99px; height:68px; position:absolute; bottom: 8px; left:50%; margin-left:-49px;}
 .arrowback ul { padding:0px;}
 .arrowback li { padding:0px;}
@@ -2062,7 +2094,6 @@ border-radius: 3px;}.button23:active{-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.2) 
 		padding-right:5%;
 		color:#FFF;
 		font-family: 'LaneUpperRegular';
-		font-size:50px;
 		left:50%;
 		margin-left:-50%;
 		text-align:center;
@@ -3457,10 +3488,31 @@ h1, h2, h3, h4, h5, h6, .post-title, .post-icon, header #nav a, .tag, .button {
 }
 
 .content {
-	margin-top: 70px;
+	margin-top: 100px;
 }
 
 
 #main .post {
 	cursor: pointer;
+}
+
+#supersized li {
+	top: 75px;
+}
+
+blockquote {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: none;
+	text-shadow: 1px 1px 3px #000;
+	quotes: "“" "”" "‘" "’";
+}
+
+blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
 }

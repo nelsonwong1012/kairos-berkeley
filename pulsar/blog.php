@@ -40,7 +40,7 @@
             }
             
             $args = array(
-                'numberposts' => 9,
+                'numberposts' => 20,
                 'category__in' => array(get_category_id('Recap'),get_category_id('Featured')),
                 'order_by' => 'post_date',
                 'order' => 'DESC' );
