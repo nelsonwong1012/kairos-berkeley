@@ -127,7 +127,8 @@ else { wp_title('',true); }
 				echo '<img src="' .$your_uploaded_logo. '"  alt="'.$your_homepage_title.'">'  ;
 			} else {
 				echo '<img src="' .$template_url. '/images/logo.png"  alt="'.$your_homepage_title.'">';
-			} ?></a>
+			} ?>
+			<span>@UC Berkeley</span></a>
         </div>
         
         <!-- Your menu items are placed here -->

@@ -168,7 +168,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_first_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_first_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -199,7 +199,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_first_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_first_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -218,7 +218,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_first_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_first_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -243,7 +243,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_first_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_first_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -554,7 +554,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$first_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$first_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -686,7 +686,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_second_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_second_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -716,7 +716,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_second_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_second_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -734,7 +734,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_second_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_second_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -758,7 +758,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_second_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_second_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1071,7 +1071,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$second_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$second_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1203,7 +1203,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_third_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_third_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1233,7 +1233,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_third_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_third_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1251,7 +1251,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_third_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_third_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1273,7 +1273,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_third_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_third_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1586,7 +1586,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$third_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$third_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1718,7 +1718,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_fourth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_fourth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1748,7 +1748,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_fourth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_fourth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1766,7 +1766,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_fourth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_fourth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -1788,7 +1788,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_fourth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_fourth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2101,7 +2101,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$fourth_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$fourth_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2233,7 +2233,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_fifth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_fifth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2263,7 +2263,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_fifth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_fifth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2281,7 +2281,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_fifth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_fifth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2303,7 +2303,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_fifth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_fifth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2616,7 +2616,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$fifth_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$fifth_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2750,7 +2750,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_sixth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_sixth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2780,7 +2780,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_sixth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_sixth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2798,7 +2798,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_sixth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_sixth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -2820,7 +2820,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_sixth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_sixth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3133,7 +3133,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$sixth_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$sixth_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3266,7 +3266,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_seventh_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_seventh_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3296,7 +3296,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_seventh_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_seventh_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3314,7 +3314,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_seventh_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_seventh_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3336,7 +3336,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_seventh_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_seventh_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3650,7 +3650,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$seventh_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$seventh_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3783,7 +3783,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_eighth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_eighth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3813,7 +3813,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_eighth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_eighth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3831,7 +3831,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_eighth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_eighth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -3853,7 +3853,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_eighth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_eighth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4167,7 +4167,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$eighth_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$eighth_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4300,7 +4300,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_ninth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_ninth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4330,7 +4330,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_ninth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_ninth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4348,7 +4348,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_ninth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_ninth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4370,7 +4370,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_ninth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_ninth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4683,7 +4683,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$ninth_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$ninth_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4816,7 +4816,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_tenth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_tenth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4846,7 +4846,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-						<li><a href="#'.$pulsar_tenth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+						<li><a href="#'.$pulsar_tenth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4864,7 +4864,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_tenth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_tenth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -4886,7 +4886,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$pulsar_tenth_parallax.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$pulsar_tenth_parallax.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
@@ -5199,7 +5199,7 @@ get_header();
 				<div class="arrowdown">
 					<nav>
 						<ul>
-							<li><a href="#'.$tenth_page_id.'"><img src="'.get_template_directory_uri().'/images/arrow-down2.png" width="99" height="99" alt="Down"></a></li>
+							<li><a href="#'.$tenth_page_id.'"><img src="'.get_template_directory_uri().'/images/down-arrow.png" alt="Down"></a></li>
 						</ul>
 					</nav>
 				</div>
