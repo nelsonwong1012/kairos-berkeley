@@ -37,7 +37,7 @@
         <?php else : ?>
         <?php endif; ?>
         
-        <?php get_sidebar('single'); ?>
+        <!--?php get_sidebar('single'); ?-->
         
         <div class="clr"></div>
         

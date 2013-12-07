@@ -41,6 +41,7 @@ function pulsar_register_css() {
 		wp_register_style( 'pulsar_titillium_css', 'http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' );
 		wp_register_style( 'pulsar_arapey_css', 'http://fonts.googleapis.com/css?family=Arapey:400italic,400' );
 		wp_register_style( 'kairos_magazine_css', get_template_directory_uri() . '/style-2012.css' );
+		wp_register_style( 'google_calendar_css', get_template_directory_uri() . '/Google-Calendar-PHP/themes/magazine.css' );
 		wp_register_style( 'kairos_magazine_reset_css', get_template_directory_uri() . '/stylesheets/reset.css' );
 		wp_register_style( 'kairos_magazine_text_css', get_template_directory_uri() . '/stylesheets/text.css' );
 		wp_register_style( 'kairos_magazine_grid_css', get_template_directory_uri() . '/stylesheets/grid.css' );
@@ -63,6 +64,7 @@ function pulsar_register_css() {
 		wp_enqueue_style('pulsar_opensansfont_css');
 		wp_enqueue_style('pulsar_titillium_css');
 		wp_enqueue_style('pulsar_arapey_css');
+		wp_enqueue_style('google_calendar_css');
 	}
 }
 add_action('init', 'pulsar_register_css');
@@ -86,8 +88,8 @@ function pulsar_register_js() {
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('pulsar_modernizr');
 		wp_enqueue_script('pulsar_easing');
-		#wp_enqueue_script('pulsar_supersized');
-		#wp_enqueue_script('pulsar_supersized_shutter');
+		wp_enqueue_script('pulsar_supersized');
+		wp_enqueue_script('pulsar_supersized_shutter');
 		wp_enqueue_script('pulsar_jquery_validate');
 		wp_enqueue_script('pulsar_parallax');
 		wp_enqueue_script('pulsar_prettyphoto');

@@ -128,12 +128,12 @@ else { wp_title('',true); }
 			} else {
 				echo '<img src="' .$template_url. '/images/logo.png"  alt="'.$your_homepage_title.'">';
 			} ?>
-			<span>@UC Berkeley</span></a>
+			<span>@ UC Berkeley</span></a>
         </div>
         
         <!-- Your menu items are placed here -->
         <div class="main-menu hide-for-small">
-        	<nav>
+	    <nav>
                 <?php wp_nav_menu( array(
                     'theme_location'  => 'main-menu',
                     'menu'            => '',
@@ -145,11 +145,13 @@ else { wp_title('',true); }
                     'items_wrap'      => '<ul id="%1$s">%3$s</ul>',
                     'depth'           => 0
                 )); ?>
-            </nav>
+                
+	    </nav>
         </div>
-        
+
         <!-- Enter the links for your social media profiles -->
-        <div class="social-media-header hide-for-small hide-for-1220"><?php global $pulsar_data; //fetch options stored in $pulsar_data
+        <div class="social-media-header hide-for-small hide-for-1220">
+        <?php global $pulsar_data; //fetch options stored in $pulsar_data
 			$your_sm_profile_url_one = $pulsar_data['sm_profile_url_one'];
 			$your_sm_profile_url_two = $pulsar_data['sm_profile_url_two'];
 			$your_sm_profile_url_three = $pulsar_data['sm_profile_url_three'];
@@ -178,6 +180,10 @@ else { wp_title('',true); }
 			} else {
 				echo '';
 			} ?>
+			
+			<a href="https://www.facebook.com/kairosberkeley" target="_blank" class="social-link facebook"></a>
+			<a href="http://kairosfellowship.tumblr.com/" target="_blank" class="social-link tumblr"></a>
+			<a href="http://instagram.com/kairos_berkeley" target="_blank" class="social-link instagram"></a>
         </div>
         
         <?php wp_nav_menu( array(
@@ -192,8 +198,6 @@ else { wp_title('',true); }
 			'depth'           => 0,
 			'walker'  => new Walker_Nav_Menu_Dropdown()
 		)); ?>
-    
-        
     </header>
     
     <?php if(is_home() ) { ?>
