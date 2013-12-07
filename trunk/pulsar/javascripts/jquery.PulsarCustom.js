@@ -115,6 +115,7 @@ jQuery(document).ready(function($){
 jQuery(function($) {
 	$('ul#menu-main-menu').prepend('<li id="#homepage"><a href="homepage">Home</a></li>');
 	
+/*
 	$('.main-menu li').bind('click',function(event){
 		console.log('clicked on: .main-menu li');
 		var $link = $(this);
@@ -125,6 +126,13 @@ jQuery(function($) {
 		
 		event.preventDefault();
 	});
+*/
+    
+    $('#calendar-link').click(function(e) {
+        e.preventDefault();
+        $(this).toggleClass('active');
+        $('#upcoming').slideToggle(150);
+    });
 	
 	$('.page-template-about-us-php [class*=section]').click(function(event) {
 		console.log('[class*=section]');
