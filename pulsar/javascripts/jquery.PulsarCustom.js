@@ -128,11 +128,19 @@ jQuery(function($) {
 	});
 */
     
-    $('#calendar-link').click(function(e) {
-        e.preventDefault();
-        $(this).toggleClass('active');
-        $('#upcoming').slideToggle(150);
-    });
+	$('#calendar-link').click(function(e) {
+		/*
+		   e.preventDefault();
+		   $(this).toggleClass('active');
+		   $('#upcoming').slideToggle(150);
+		   */
+		e.preventDefault();
+		$(this).toggleClass('active');
+		$('#upcoming').animate({right: parseInt($('#upcoming').css('right')) == 0 ?
+			-$('#upcoming').outerWidth() :
+			0
+			});
+	});
 	
 	$('.page-template-about-us-php [class*=section]').click(function(event) {
 		console.log('[class*=section]');
