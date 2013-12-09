@@ -88,13 +88,16 @@ function pulsar_register_js() {
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('pulsar_modernizr');
 		wp_enqueue_script('pulsar_easing');
-		wp_enqueue_script('pulsar_supersized');
-		wp_enqueue_script('pulsar_supersized_shutter');
+		#wp_enqueue_script('pulsar_supersized');
+		#wp_enqueue_script('pulsar_supersized_shutter');
 		wp_enqueue_script('pulsar_jquery_validate');
 		wp_enqueue_script('pulsar_parallax');
 		wp_enqueue_script('pulsar_prettyphoto');
 		wp_enqueue_script('pulsar_customscrollbar');
 		wp_enqueue_script('pulsar_custom');
+	if(is_home())
+		wp_enqueue_script('pulsar_supersized');
+		wp_enqueue_script('pulsar_supersized_shutter');
 	}
 }
 add_action('init', 'pulsar_register_js');
@@ -107,10 +110,6 @@ function pulsar_single_scripts() {
 		
 	if(is_singular())
 		wp_enqueue_script( "comment-reply" );
-	if(is_home())
-		wp_enqueue_script('pulsar_supersized');
-		wp_enqueue_script('pulsar_supersized_shutter');
-
 }
 add_action('wp_print_scripts', 'pulsar_single_scripts');
 
